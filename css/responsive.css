@@ -1,0 +1,29 @@
+@media(max-width: 768px){
+    html{
+        font-size: 56.2%;
+    }
+    .side-space{
+        padding: 0rem 1.5rem;
+        margin: 0 auto;
+    }
+    
+    li.nav-item {
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .align-items-center {
+       
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .navbar-toggler{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+    /* Banner====================================== */
+    .hero-content{
+        width: 90%;
+        padding-left: 2rem;
+    }
+}
