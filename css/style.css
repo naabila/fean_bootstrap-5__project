@@ -34,7 +34,7 @@ img{
 }
 h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 5.6rem;
+    font-size: 6rem;
     font-weight: 700;
     line-height: 6.7rem;
     text-align: left;
@@ -142,7 +142,7 @@ i.fa-solid.fa-magnifying-glass {
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
-    width: 45%;
+    width: 40%;
 }
 .hero-content p{
     padding: 2.5rem 0;
@@ -176,7 +176,8 @@ i.fa-solid.fa-magnifying-glass {
     margin: 0rem 0 0 -0.5rem;
 }
 
-.offer-image {
+.offer-image
+{
     margin-right: 2rem;
     width: 17.5rem;
     height: 17.5rem;
@@ -202,9 +203,12 @@ i.fa-solid.fa-magnifying-glass {
     margin: 3rem 0;
 }
 
-a.btn.btn-filter {
+button.btn.btn-filter {
     background: var(--bg);
     margin: 0 1rem;
+}
+button.btn.btn-filter:hover{
+    color: #fff;
 }
 .menu-box {
     
@@ -284,12 +288,175 @@ a.btn.btn-filter {
 h2.booking{
     text-align: left;
 }
-
-
+.form-container{
+    margin-top: 3rem;
+}
+.form-container div{
+    margin: 2rem 0;
+}
+input#exampleFormControlInput1,
+select.form-select {
+    padding: 2rem 2rem 2rem 2rem;
+    border: 1px solid var(--bg);
+    font-size: 1.6rem;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    border-radius: 8rem;
+    margin-right: 3rem;
+}
+.map img{
+    border-radius: 3rem;
+    margin-top: 4rem;
+}
+.book{
+    font-size: 2rem;
+    padding: 1rem 5.5rem;
+}
+/* ============================= testimonial section ============= */
+.testimonial-content {
+    background-color: #222831;
+    color: #ffffff;
+    padding: 28px 25px 24px 29px;
+    border-radius: 5px;
+    margin: 6rem 1rem 3rem 1rem;
+}
+.testiminial-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
  
+.testimonial-content h4{
+    
+        font-weight: 600;
+        font-size: 18px;
+        margin: 15px 0 5px 0;
+    
+}
+.testimonial-content h5{
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.client-image {
+    
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    width: 11.5rem;
+    margin-top: 3rem;
+    position: relative;
+    
+}
+.client-image img{
+    
+    border-radius: 100%;
+    border: 5px solid #ffbe33;
+    z-index: 9;
+   
+}
+.client-image:after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ffbe33;
+    -webkit-transform: rotate(45deg) translateX(-50%);
+    transform: rotate(45deg) translateX(-50%);
+}
 
+/* ==================================
+Footer ========================================== */
+.footer{
+    background-color: var(--bg);
+    color: #fff;
+   
+}
+.footer-top{
+    padding: 8rem 0 8rem 0;
+}
 
+.footer h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+.address-inner{
+    margin: 1rem 0;
+}
+.footer a{
+    color: #fff;
+    transition: .3s;
+    font-size: 1.8rem;
+}
+.footer a:hover{
+    color: #e69c00;
+}
+i.fa-solid.fa-location-dot,
+i.fa-regular.fa-envelope,
+i.fa-solid.fa-phone {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    margin-top: -2px;
+}
 
+/* 2nd cilumn */
+.footer-logo{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.footer-text {
+    margin: 1rem;
+}
+.footer-text p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.footer-icons{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+.footer-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg);
+    transition: .3s;
+    font-size: 1.8rem;
+    
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 101%;
+    
+}
+.footer-3rd-column p{
+font-size: 1.8rem;
+}
+.footer-bottom{
+    padding-bottom: 3rem;
+}
+.footer-bottom p {
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
 
 
 
